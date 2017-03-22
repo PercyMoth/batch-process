@@ -1,9 +1,26 @@
+
+# Ignore J8583 source code examples
+src/main/java/com/solab/
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
 
-# Folder config file
-Desktop.ini
+# Build Files
+build/
+.gradle
+
+# Ignore vi swp files
+*.swp
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored
+!graddle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
